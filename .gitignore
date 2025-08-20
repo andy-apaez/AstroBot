@@ -1,0 +1,52 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+.venv/
+
+# -----------------------------
+# OS-specific files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Hugging Face / Model offload
+# -----------------------------
+offload/                
+*.ckpt                   
+*.bin                   
+cache/                  
+
+# -----------------------------
+# Environment / secrets
+# -----------------------------
+.env                    
+
+# -----------------------------
+# Streamlit / logs
+# -----------------------------
+.streamlit/
+*.log
+
+# -----------------------------
+# Optional: datasets or temporary files
+# -----------------------------
+data/
+output/
